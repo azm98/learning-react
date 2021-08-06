@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import MyForm from './MyForm';
 import reportWebVitals from './reportWebVitals';
+import ValidationForm from './ValidationForm';
+import FetchRandomUser from './FetchRandomUser';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <MyForm/> */}
+    <FetchRandomUser/>
   </React.StrictMode>,
   document.getElementById('root')
 );
