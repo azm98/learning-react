@@ -12,14 +12,11 @@ export default class Header extends Component {
     render() {
         return (
             <div>
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"></img>
                     <h1 className="App-title">{this.props.title}</h1>
                     <p>{this.props.num}</p>
                     <p>{JSON.stringify(this.props.obj)}</p>
                     <button onClick={this.props.Func}>click :</button>
                     {console.log(this.props.Func(this.state.num1))}
-                </header>
             </div>
         )
     }

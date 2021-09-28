@@ -10,7 +10,7 @@ import FetchRandomUser from './FetchRandomUser';
 ReactDOM.render(
   <React.StrictMode>
     {/* <MyForm/> */}
-    <FetchRandomUser/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
